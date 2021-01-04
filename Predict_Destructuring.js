@@ -7,6 +7,8 @@ const [ ,otherRandomCar ] = cars
 console.log(randomCar)
 console.log(otherRandomCar)
 
+// Prediction: Tesla
+//             Mercedes
 
 
 // 2
@@ -20,6 +22,11 @@ const { name: otherName } = employee;
 console.log(name);
 console.log(otherName);
 
+// Prediction: undefine
+//             Elon
+//  !
+// Console: 
+//          Elon
 
 
 // 3
@@ -34,6 +41,11 @@ const { password: hashedPassword } = person;
 console.log(password);
 console.log(hashedPassword);
 
+// Prediction: 12345
+//             error: because hashedPassword is not an attribute in person
+//  !
+// Console: 12345
+//          undefine
 
 
 // 4
@@ -45,6 +57,9 @@ const [,,,,,,,,third] = numbers;
 console.log(first == second);
 console.log(first == third);
 
+// Notes: first = 2, second = 5, third = 2
+// Prediction: false
+//             true
 
 
 // 5
@@ -60,3 +75,8 @@ console.log(key);
 console.log(secondKey);
 console.log(secondKey[0]);
 console.log(willThisWork);
+
+// Prediction: value
+//             [1, 5, 1, 8, 3, 3]
+//             1
+//             5
